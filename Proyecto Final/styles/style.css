@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+}
+div,header,section,footer, main{
+    position: absolute;
+}
+video{
+    min-width: 100%;
+    min-height: 100%;
+}
+source.back{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow:hidden
+}
+header{
+    display: flex;
+    height: 100%;
+}
+p.header{
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 7vh;
+    margin-left: 13vh;
+}
+.menu{
+    width: 38px;
+    margin-top: 38px;
+    margin-left: 76vh;
+/* Falta */
+}
+p.a1{
+    color: white;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 33vh;
+    margin-left: 13vh;
+}
+p.a2{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 0vh;
+    margin-left: 13vh;
+}
+p.a3{
+    color: white;
+    font-size: 20px;
+    margin-top: 0vh;
+    margin-left: 13vh;
+}
+p.b1{
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 63vh;
+    margin-left: 13vh;
+    background-color: white;
+    padding: 20px 50px;
+}
+a.b1{
+    text-decoration: none;
+}
+.b1:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    margin-top: 93vh;
+    margin-left: 13vh;
+}
+.fb{
+    width: 15px;
+}
+.tw{
+    width: 30px;
+    margin-left: 3vh;
+}
+.ig{
+    width: 30px;
+    margin-left: 4vh;
+}
+.second{
+    margin-left: 8vh;
+    color: white;
+}
